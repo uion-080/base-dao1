@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="base-dao">
+    <output-path>$PROJECT_DIR$/classes/artifacts/base_dao</output-path>
+    <root id="archive" name="base-dao.jar">
+      <element id="module-output" name="base-dao1" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
