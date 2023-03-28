@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T02:40:43.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="21.1.0" etag="1XhBAS_0q5daAxeSRZVe" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T02:55:11.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="78ODk6I54QADjGYbwHrw" version="21.1.0" type="github">
   <diagram name="第 1 页" id="B0IZb8abPGkteQo90t3f">
-    <mxGraphModel>
+    <mxGraphModel dx="1128" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XSe23DP99E-pY93Zr4c6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XSe23DP99E-pY93Zr4c6-1" target="XSe23DP99E-pY93Zr4c6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XSe23DP99E-pY93Zr4c6-1" target="XSe23DP99E-pY93Zr4c6-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="340" />
+              <mxPoint x="280" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-1" value="草料云平台" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="300" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="XSe23DP99E-pY93Zr4c6-2" target="XSe23DP99E-pY93Zr4c6-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="340" />
+              <mxPoint x="460" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-2" value="物联网平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XSe23DP99E-pY93Zr4c6-4" target="XSe23DP99E-pY93Zr4c6-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="470" />
+              <mxPoint x="460" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-4" value="报表服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-6" value="管理人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="390" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-9" value="巡检报表" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XSe23DP99E-pY93Zr4c6-12" target="XSe23DP99E-pY93Zr4c6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-12" value="消息推送平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581" y="340" width="20" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-11" value="巡检数据可视化展示" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="461" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XSe23DP99E-pY93Zr4c6-19" value="推送" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
